@@ -60,7 +60,8 @@ Complete with 41 rounds.
 
 #### Graph2
 
-![image](https://github.com/user-attachments/assets/bc67c418-d578-4bb7-b202-6d126e771d53)
+![image](https://github.com/user-attachments/assets/4add5a12-2c5d-4457-998b-3ecb3dffae8b)
+
 
 - Result ( Dijkstra )
 
