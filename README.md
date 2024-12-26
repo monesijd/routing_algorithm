@@ -87,7 +87,7 @@ Complete with 24 rounds.
 
 Chiao Tung Campus
 
-- Result( Dijkstra )
+- Result ( Dijkstra )
 
 ```bash
 Please input start: 0
