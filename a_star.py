@@ -22,17 +22,18 @@ def build_A_star_table(num, end, A_star_table, coordinate):
         A_star_table[each_node] = distance
 
 def print_table(num, len_table):
+    print("--------------------------------------------")
     print("node       | ", end=" ")
     for i in range(num): 
-        print(chr(ord('A') + i), end="  ") 
+        print(f"{chr(ord('A') + i):3s}", end="") 
     print() 
 
-    print("min dis    | ", end=" ")
+    print("min dis    |", end="")
     for each_end in range(num): 
         if len_table[each_end][0] == float('inf'): 
             print("-  ", end="")
         else:
-            print(len_table[each_end][0], end="  ")
+            print(f"{len_table[each_end][0]:3d}", end="")
     print()
 
     print("Last node  | ", end=" ")
@@ -60,6 +61,8 @@ coordinate = list()
 A_star_table = [0] * num
 # 每一個點的評價分數(離終點的幾何距離)
 
+print("Please input edges (node1, node2, distance): ")
+print("Input \"0\" for end.")
 while True:
     content = input()
     if content == '0': break
